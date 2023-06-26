@@ -123,7 +123,13 @@ set -ex
 
 ### deb packages
 apt-get update
-sh -c "DEBIAN_FRONTEND=noninteractive     apt-get install -y -o Dpkg::Options::="--force-confnew"     git jq tmux direnv unzip groff gnupg bash-completion     apt-transport-https software-properties-common     net-tools dnsutils ldap-utils netcat-openbsd nfs-common     openjdk-17-jdk     "
+sh -c "DEBIAN_FRONTEND=noninteractive \
+    apt-get install -y -o Dpkg::Options::=\"--force-confnew\" \
+    git jq tmux direnv unzip groff gnupg bash-completion \
+    apt-transport-https software-properties-common \
+    net-tools dnsutils ldap-utils netcat-openbsd nfs-common \
+    openjdk-17-jdk \
+    "
 echo "***deb packages installed!***"
 
 TMPDIR=/tmp/\$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
