@@ -35,11 +35,14 @@ This is a set of a shell script and a JSON file to build a VM template and OVF/O
   - Tanzu Developer Tools, Tanzu App Accelerator Extensions, TAP GUI Catalogs, and other things for Developer Experience
 - tanzu CLI bundles for TKG and TAP
 - Carvel tools, Helm, Kustomize, jq, yq, direnv, git, netcat, OpenJDK, and other useful commands
-- Bitnami Helm Charts and container images
-  - Minio
-  - PostgreSQL
-  - Nginx
-  - ArgoCD
+- Helm Charts and container images
+  - Bitnami Minio
+  - Bitnami PostgreSQL
+  - Bitnami PostgreSQL HA
+  - Bitnami Redis
+  - Bitnami Nginx
+  - Bitnami ArgoCD
+  - AVI Multi-Cluster Kubernetes Operator (AMKO)
 - handy Docker image
   - busybox
 - Grype vulnarability databases
