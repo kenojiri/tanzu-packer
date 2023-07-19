@@ -49,6 +49,7 @@ This is a set of a shell script and a JSON file to build a VM template and OVF/O
 
 ## Notes
 - The built OVF/OVA files cannot be freely distributed. The End User Licenses of TKG and TAP should be agreed before downloading and using them.
+- [How to use Helm Chart bundles?](./helm_charts.md)
 
 ## References
 - https://developer.hashicorp.com/packer/plugins/builders/vsphere/vsphere-iso
